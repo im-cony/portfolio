@@ -1,12 +1,8 @@
 {
+  "redirects": [
+    { "source": "/kms", "destination": "/kms/", "permanent": false }
+  ],
   "rewrites": [
-    {
-      "source": "/kms",
-      "destination": "https://ai-kms-beryl.vercel.app/kms"
-    },
-    {
-      "source": "/kms/:path*",
-      "destination": "https://ai-kms-beryl.vercel.app/kms/:path*"
-    }
+    { "source": "/kms/:path*", "destination": "https://ai-kms-beryl.vercel.app/kms/:path*" }
   ]
 }
