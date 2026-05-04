@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/kms",
+      "destination": "https://ai-kms-beryl.vercel.app/kms"
+    },
+    {
+      "source": "/kms/:path*",
+      "destination": "https://ai-kms-beryl.vercel.app/kms/:path*"
+    }
+  ]
+}
