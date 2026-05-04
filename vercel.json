@@ -1,7 +1,5 @@
 {
   "redirects": [
-    { "source": "/", "has": [{ "type": "host", "value": "ktds.cony.im" }], "destination": "https://www.cony.im/ktds", "permanent": true },
-    { "source": "/:path+", "has": [{ "type": "host", "value": "ktds.cony.im" }], "destination": "https://www.cony.im/ktds/:path+", "permanent": true },
     { "source": "/ktds/", "destination": "/ktds", "permanent": false },
     { "source": "/ktds/kms", "destination": "/ktds/kms/", "permanent": true },
     { "source": "/kms", "destination": "/ktds/kms/", "permanent": true },
