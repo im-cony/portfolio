@@ -1,6 +1,9 @@
 {
   "redirects": [
-    { "source": "/ktds/", "destination": "/ktds", "permanent": false }
+    { "source": "/ktds/", "destination": "/ktds", "permanent": false },
+    { "source": "/kms", "destination": "/ktds/kms", "permanent": true },
+    { "source": "/kms/", "destination": "/ktds/kms", "permanent": true },
+    { "source": "/kms/:path+", "destination": "/ktds/kms/:path+", "permanent": true }
   ],
   "rewrites": [
     { "source": "/ktds", "destination": "https://ai-kms-beryl.vercel.app/" },
