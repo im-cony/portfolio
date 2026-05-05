@@ -11,6 +11,8 @@
     { "source": "/ktds/kms/:path+", "destination": "https://ai-kms-beryl.vercel.app/:path+" },
     { "source": "/ktds", "destination": "https://ktds.cony.im/" },
     { "source": "/ktds/:path+", "destination": "https://ktds.cony.im/:path+" },
+    { "source": "/", "has": [{ "type": "host", "value": "www.subi365.app" }], "destination": "https://ktds.cony.im/" },
+    { "source": "/", "has": [{ "type": "host", "value": "subi365.app" }], "destination": "https://ktds.cony.im/" },
     { "source": "/:path*", "has": [{ "type": "host", "value": "www.subi365.app" }], "destination": "https://ktds.cony.im/" },
     { "source": "/:path*", "has": [{ "type": "host", "value": "subi365.app" }], "destination": "https://ktds.cony.im/" }
   ]
