@@ -1,6 +1,8 @@
 {
   "redirects": [
     { "source": "/ktds/", "destination": "/ktds", "permanent": false },
+    { "source": "/ktds/slides/", "destination": "/ktds/slides", "permanent": false },
+    { "source": "/ktds/slides/:path+/", "destination": "/ktds/slides/:path+", "permanent": false },
     { "source": "/ktds/kms", "destination": "/ktds/kms/", "permanent": true },
     { "source": "/kms", "destination": "/ktds/kms/", "permanent": true },
     { "source": "/kms/", "destination": "/ktds/kms/", "permanent": true },
