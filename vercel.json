@@ -16,10 +16,10 @@
     { "source": "/ktds/slides", "destination": "https://slide-liart.vercel.app/" },
     { "source": "/ktds/slides/", "destination": "https://slide-liart.vercel.app/" },
     { "source": "/ktds/slides/:path+", "destination": "https://slide-liart.vercel.app/:path+" },
-    { "source": "/ktds", "destination": "https://ktds.cony.im/" },
-    { "source": "/ktds/:path+", "destination": "https://ktds.cony.im/:path+" },
-    { "source": "/:path*", "has": [{ "type": "host", "value": "www.subi365.app" }], "destination": "https://ktds.cony.im/" },
-    { "source": "/:path*", "has": [{ "type": "host", "value": "subi365.app" }], "destination": "https://ktds.cony.im/" }
+    { "source": "/ktds", "destination": "https://ktds.subi365.app/" },
+    { "source": "/ktds/:path+", "destination": "https://ktds.subi365.app/:path+" },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "www.subi365.app" }], "destination": "https://ktds.subi365.app/" },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "subi365.app" }], "destination": "https://ktds.subi365.app/" }
   ],
   "headers": [
     {
