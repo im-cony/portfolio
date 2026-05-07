@@ -20,5 +20,21 @@
     { "source": "/ktds/:path+", "destination": "https://ktds.cony.im/:path+" },
     { "source": "/:path*", "has": [{ "type": "host", "value": "www.subi365.app" }], "destination": "https://ktds.cony.im/" },
     { "source": "/:path*", "has": [{ "type": "host", "value": "subi365.app" }], "destination": "https://ktds.cony.im/" }
+  ],
+  "headers": [
+    {
+      "source": "/ktds/:path*",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, s-maxage=60, must-revalidate" },
+        { "key": "CDN-Cache-Control", "value": "no-store" }
+      ]
+    },
+    {
+      "source": "/kms/:path*",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, s-maxage=60, must-revalidate" },
+        { "key": "CDN-Cache-Control", "value": "no-store" }
+      ]
+    }
   ]
 }
